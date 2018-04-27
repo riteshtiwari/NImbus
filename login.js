@@ -4,7 +4,7 @@ import { StyleSheet, ScrollView, NetInfo, AsyncStorage, StatusBar,
    Image
   } from 'react-native';
 import BackgroundFetch from "react-native-background-fetch";
-import TweetEmbed from './TweetEmbed';
+//import TweetEmbed from './TweetEmbed';
 import firebase from 'firebase';
 
 const ImageLogo = require('./logo_energy.png');

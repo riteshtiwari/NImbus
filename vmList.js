@@ -51,7 +51,7 @@ export default class vmList extends Component{
             
             axios.get('https://json.geoiplookup.io/api').then((ipData) => {
                 console.log('ddd', ipData.data);
-                let ipCheck = self.checkIpaddrInRange(ipData.data.ip, '10.0.0.1', '10.100.100.100');
+                let ipCheck = self.checkIpaddrInRange(ipData.data.ip, '208.0.0.1', '208.255.255.255');
                 console.log('ipCheck', ipCheck);
                 if(ipCheck){
                     //inside office
